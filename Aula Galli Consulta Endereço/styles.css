@@ -15,9 +15,43 @@
 .container{
 
     text-align: center;
-    background-color: #fff;
+    background-color: #ffffffd3;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(red, green, blue, alpha);
 
+}
+
+.container.dark-mode{
+    background-color: #555e66;
+}
+
+#resultados img{
+   width: 100px;
+
+}
+
+#modo-noturno{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.dark-mode{
+    background-color: #343a40;
+    color: #ffffffd3;
+}
+
+.lampada.apagada{
+    transform: rotate(180deg);
+    color: #ffffffd3;
+    
+}
+
+.lampada{
+    transition-duration: 2s;
 }
